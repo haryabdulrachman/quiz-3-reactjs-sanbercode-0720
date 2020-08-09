@@ -1,0 +1,53 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin: 20px auto;
+  width: 80%;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+.hubungikami {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.hubungikami ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  width: 80%;
+}
+
+form table {
+  width: 100%;
+}
+
+form table tr td:first-child {
+  width: 150px;
+  font-weight: 600;
+  vertical-align: top;
+}
+
+form table input {
+  margin-bottom: 5px;
+}
+
+form table input[type='text'], input[type='email'] {
+  width: 50%;
+  outline: none;
+}
+
+form table textarea {
+  font-family: sans-serif;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+}

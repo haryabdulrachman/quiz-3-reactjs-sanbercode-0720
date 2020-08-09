@@ -1,0 +1,49 @@
+/* Tabel */
+.tableList {
+  margin: auto;
+}
+
+.tableList td {
+  width: 150px;
+  text-align: center;
+}
+
+.tableList thead {
+  background-color: grey;
+}
+
+.tableList tbody {
+  background-color: burlywood;
+}
+
+
+/* Form */
+.formSubmit {
+  width: 40%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  row-gap: 5px;
+  text-align: left;
+}
+
+.formSubmit input {
+  outline: none;
+}
+
+.formSubmit button {
+  background-color: rgb(135, 180, 222);
+  margin-top: 10px;
+  width: 80px;
+  padding: 5px 0 ;
+  border: 1px solid grey;
+  outline: none;
+  font-weight: 600;
+}
+
+.formSubject {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
